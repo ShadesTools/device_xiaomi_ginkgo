@@ -297,6 +297,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     XiaomiParts
 
+#Platform
+PRODUCT_USES_QCOM_HARDWARE := true
+PRODUCT_BOARD_PLATFORM := trinket
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti

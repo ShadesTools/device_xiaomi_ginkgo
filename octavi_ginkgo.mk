@@ -27,6 +27,8 @@ $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_PIXEL_CHARGER := true
 $(call inherit-product, vendor/octavi/config/common_full_phone.mk)
+TARGET_GAPPS_ARCH := arm64
+WITH_GAPPS := true
 OCTAVI_BUILD_TYPE := Official
 OCTAVI_DEVICE_MAINTAINER := Tokatsu
 

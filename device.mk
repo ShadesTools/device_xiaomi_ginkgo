@@ -392,7 +392,8 @@ PRODUCT_PACKAGES += \
 # Soong namespace
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    kernel/xiaomi/ginkgo
+    kernel/xiaomi/ginkgo \
+    vendor/qcom/opensource/commonsys-intf/display
 
 # Telephony
 PRODUCT_PACKAGES += \

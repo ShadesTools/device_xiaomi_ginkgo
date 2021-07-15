@@ -1,3 +1,4 @@
+]    
     {
         "remote":       "github",
         "repository":   "OctaviOS-Devices/kernel_xiaomi_ginkgo",
@@ -15,11 +16,5 @@
         "repository":   "trinket-devs/vendor_miuicamera",
         "target_path":  "vendor/miuicamera",
         "revision":     "11.0"
-    },
-    {
-        "remote":       "github",
-        "repository":   "ThankYouMario/proprietary_vendor_qcom_sdclang",
-        "target_path":  "prebuilts/clang/host/linux-x86/clang-sdllvm",
-        "branch":       "ruby-12"
     }
 ]

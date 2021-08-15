@@ -16,11 +16,6 @@ persist.vendor.btstack.enable.splita2dp=true
 ro.bluetooth.library_name=libbluetooth_qti.so
 vendor.bluetooth.soc=cherokee
 
-# Blur
-ro.surface_flinger.supports_background_blur=1
-debug.sf.disable_backpressure=1
-ro.sf.blurs_are_expensive=1
-
 # Charger
 ro.charger.enable_suspend=true
 
@@ -31,6 +26,9 @@ persist.vendor.dpmhalservice.enable=1
 
 # Data
 persist.data.df.dev_name=rmnet_usb0
+
+# Dialer Blurs
+dialer.supports.blur=true
 
 # Fwk detect
 ro.vendor.qti.va_odm.support=1
@@ -44,6 +42,13 @@ persist.vendor.ims.disableQXDMLogs=1
 # IORap
 iorapd.readahead.enable=true
 ro.iorapd.enable=true
+
+# Display
+ro.surface_flinger.supports_background_blur=1
+debug.sf.disable_backpressure=1
+ro.sf.blurs_are_expensive=1
+persist.lcd.cabc_mode=1
+persist.lcd.hbm_mode=0
 
 # Incremental FS
 ro.incremental.enable=1

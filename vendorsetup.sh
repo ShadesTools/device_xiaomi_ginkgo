@@ -12,6 +12,7 @@ rm -rf vendor/nxp/opensource/commonsys/frameworks
 rm -rf vendor/nxp/opensource/commonsys/packages/apps/Nfc
 rm -rf vendor/nxp/opensource/sn100x/halimpl
 rm -rf vendor/nxp/opensource/sn100x/hidlimpl
+rm -rf external/libnfc-nxp
 git clone https://github.com/ArrowOS/android_hardware_qcom_display.git -b arrow-11.0-caf-sm8150 hardware/qcom-caf/sm8150/display
 git clone https://github.com/ArrowOS/android_hardware_qcom_audio.git -b arrow-11.0-caf-sm8150 hardware/qcom-caf/sm8150/audio
 git clone https://github.com/ArrowOS/android_hardware_qcom_media.git -b arrow-11.0-caf-sm8150 hardware/qcom-caf/sm8150/media

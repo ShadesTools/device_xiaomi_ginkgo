@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/octavi_ginkgo.mk
+    $(LOCAL_DIR)/radiant_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    octavi_ginkgo-user \
-    octavi_ginkgo-userdebug \
-    octavi_ginkgo-eng
+    radiant_ginkgo-user \
+    radiant_ginkgo-userdebug \
+    radiant_ginkgo-eng

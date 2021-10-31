@@ -6,9 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/radiant_ginkgo.mk
+    $(LOCAL_DIR)/fluid_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    radiant_ginkgo-user \
-    radiant_ginkgo-userdebug \
-    radiant_ginkgo-eng
+    fluid_ginkgo-userdebug \

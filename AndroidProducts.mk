@@ -6,7 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/fluid_ginkgo.mk
+    $(LOCAL_DIR)/arrow_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    fluid_ginkgo-userdebug \
+    arrow_ginkgo-userdebug \

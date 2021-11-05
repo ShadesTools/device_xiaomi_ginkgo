@@ -6,7 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_ginkgo.mk
+    $(LOCAL_DIR)/aosp_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_ginkgo-userdebug \
+    aosp_ginkgo-userdebug \
